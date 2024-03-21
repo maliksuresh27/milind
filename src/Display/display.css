@@ -1,0 +1,57 @@
+.display-image img {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 40%;
+  transition: transform 0.5s ease;
+}
+
+.image-visible {
+  opacity: 1;
+}
+.image-hidden {
+  opacity: 0; /* Hide image initially */
+}
+/*
+.image-grid img {
+  width: 122%;
+  height: 95%;
+  transition: transform 0.3s ease;
+  display: block;
+  object-fit: fill;
+}
+
+ .image-grid {
+  display: grid;
+  place-items: center;
+}
+
+.image-grid image:hover {
+  transform: translateX(20%, -20%);
+  z-index: 100;
+}
+
+.image-grid img:not(:hover) {
+  transform: scaleX(0.8);
+  filter: grayscale(90%);
+}
+
+.image2:hover {
+  transform: scaleX(1.1);
+  z-index: 100;
+}
+
+.image3:hover {
+  transform: scaleX(1.1);
+  z-index: 100;
+}
+
+.imageLeft:hover {
+  transform: translateX(20%);
+  z-index: 100;
+}
+
+.imageRight:hover {
+  transform: translateX(-20%);
+  z-index: 100;
+} */
